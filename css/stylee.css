@@ -1,0 +1,221 @@
+/*rest*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*general*/
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+/*header*/
+.header {
+  background-color: #333;
+  overflow: auto;
+  line-height: 1.7em;
+  border: 1px solid #333;
+  border-radius: 0px;
+}
+
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.header nav h1 a {
+  color: white;
+}
+.header nav ul {
+  float: right;
+  list-style: none;
+  padding: 20px;
+}
+.header nav ul li {
+  float: left;
+}
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.header nav ul li a:hover {
+  background: #444;
+}
+.active {
+  background: #444;
+}
+
+/*vp*/
+.vp {
+  min-height: 700px;
+  background: url(../images/cafee.jpg) center center;
+  background-size: cover; /*todkhol wala tokhrej mil dosiyet taamel ala il dakhla wala il kharja min ay dossi point */
+  text-align: center;
+  padding: 20px;
+}
+.vp-content {
+  max-width: 600px;
+  padding-top: 150px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+.vp-content h1 {
+  font-size: 50px;
+}
+.separator {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  margin: 20px auto;
+}
+.btn {
+  /*btn maanitha bouton   btn-primary maanitha colonne mo3ayin*/
+  display: inline-block;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+.btn-primary {
+  background: white;
+  color: black;
+}
+.btn-primary:hover {
+  background: black;
+  color: white;
+  
+}
+.btn-dark {
+  background: #222;
+  color: white;
+}
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 3px solid #222;
+}
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.underline {
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.chip {
+  display: inline-block;
+  width: 35px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+.chip-purple {
+  background: #bd428c;
+}
+.chip-brown {
+  background: #8c5e25;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;/*yatik il espace mabin il les letters */
+  line-height: 1.9em;/*yatik bo3d il line ala khoh 😁*/
+  margin-bottom: 10px;
+}
+/*features*/
+.features {
+  overflow: auto;
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+.feature {
+  float: left;
+  width: 50%;
+}
+.person {
+  height: 400px;
+  background: url(../images/cafeeee.jpg) center center / cover;
+}
+.reservation {
+  padding: 100px 20px 100px 0px;
+  text-align: center;
+  line-height: 1.7em;
+  letter-spacing: 0.5px;
+}
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 0px;
+}
+
+.where {
+  padding: 100px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.where-text {
+  float: right;
+  width: 50%;
+}
+/*contact*/
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+.contact-form-container {
+  max-width: 700px;
+  margin: auto;
+}
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+.contact-form-container form input,textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .contact-form-container form textarea {
+    min-height: 80px;
+  }
